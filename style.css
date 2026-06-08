@@ -9,6 +9,7 @@ body {
     line-height: 1.6;
 }
 
+/* Hero section */
 .hero-section{
   background: linear-gradient(135deg,#9d9da3, #7c3aed);
   color: white;
@@ -27,25 +28,29 @@ body {
 }
 .hero-content h1{
   font-size: 3rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 .hero-content p {
     max-width: 600px;
     margin-bottom: 1.5rem;
     font-size: 1.1rem;}
 
-.products-section {
+    /* Product section */
+
+.product-section {
     padding: 80px 0;
-    background-image:url(media/pexels-ivett-36288892.jpg);
-    background-size: cover;
+   background-color: white;
 }
 
-.products-card{
+.product-card{
+  transition: 0.3s ease;
   border: none;
   border-radius: 15px;
+  overflow: hidden;
 }
 
-.products-card:hover{
+.product-card:hover{
+   transform: translateY(-8px);
    box-shadow: 0 10px 20px rgba(0,0,0,0.15);
 }
 
@@ -54,6 +59,8 @@ body {
     object-fit: cover;
 }
 
+
+/* Footer section */
 
 
 .footer-section {

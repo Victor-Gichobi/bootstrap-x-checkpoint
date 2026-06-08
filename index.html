@@ -10,40 +10,49 @@
       <link rel="stylesheet" href="style.css">
 </head>
 <body>
-     <header class="hero-section">
+
+     <!--==================
+        Header section
+     ==================== -->
+
+
+          <header class="hero-section">
             <!--Navigation menu-->
-       <nav>
-        <a href="#">CHOBI'S STORE</a>
-        <button class="navbar-toggler" type="button">
+       <nav class="navbar navbar-expand-lg navbar-dark container">
+        <a class="navbar-brand fw-bold" href="#">CHOBI'S STORE</a>
+
+            <button class="navbar-toggler" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
         </button>
-        <div>
-            <ul>
-                <li>
-                    <a href="#home"></a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#home">HOME</a>
                 </li>
 
-                <li>
-                    <a href="#product"></a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#product">PRODUCT</a>
                 </li>
-                <li>
-                    <a href="#products"></a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">SERVICES</a>
                 </li>
-                <li>
-                    <a href="#footer"></a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#footer">CONTACT</a>
                 </li>
             </ul>
         </div>
        </nav>
 
           <!--Hero Content-->
-    <div class="hero-content">
+    <div id="home" class="container text-center hero-content">
         <h1>Discover Amazing Products</h1>
             <p>
-                Shop the latest trends with unbearable prices and premium quality
+                Shop the latest trends with unbeatable prices and premium quality
           </p>
 
-          <a href="#products">
+          <a href="#products" class="btn btn-warning btn-lg">
                Shop Collection
           </a>
     </div>
@@ -52,22 +61,26 @@
        <!--=======================
               PRODUCT SECTION
            ======================-->
-     <section class="products-section">
+     <section id="product" class="products-section">
+
       <div class="container">
         <h2 class="text-center mb-5">Featured Products</h2>
+
             <div class="row g-4">
              
                 <!---Product Card-->
             <div class="col-md-6 col-lg-3">
                 <div class="card product-card h-100">
 
-                <img src="media/pexels-chuck-8685526.jpg" alt="Sneakers">
+                <img src="media/pexels-chuck-8685526.jpg" class="card-img-top" alt="Sneakers">
 
                 <div class="card-body">
-                    <h5>Running shoes</h5>
+                    <h5 class="card-title">Running shoes</h5>
 
-                    <p> Comfortable and Stylish shoes for everyday use.</p>
-                    <a href="#">Shop Now</a>
+                    <p class="card-text"> Comfortable and Stylish shoes for everyday use.</p>
+                    <a href="#" class="btn btn-primary">
+                        Shop Now
+                    </a>
                 </div>
         </div>
     </div>
@@ -75,11 +88,16 @@
          <!--Product Card 2-->
     <div class="col-md-6 col-lg-3">
             <div class="card product-card h-100">
-                <img src="media/pexels-pratik-prasad-3736245-11700618.jpg" alt="Smart watch">
+
+                <img src="media/pexels-pratik-prasad-3736245-11700618.jpg" class="card-img-top"
+                alt="Smart watch">
+
                 <div class="card-body">
-                        <h5>Smart Watch</h5>
-                        <p>Stay connected with advanced smart features</p>
-                        <a href="#">Shop now</a>
+                        <h5 class="card-title">Smart Watch</h5>
+
+                        <p class="card-text">Stay connected with advanced smart features</p>
+                        <a href="#" class="btn btn-primary">
+                            Shop now</a>
               </div>
         </div>
      </div>
@@ -87,23 +105,35 @@
      <!--Product Card 3-->
       <div class="col-md-6 col-lg-3">
             <div class="card product-card h-100">
-                <img src="media/pexels-giulianogiudici-16678677.jpg" alt="Jersey">
+
+                <img src="media/pexels-giulianogiudici-16678677.jpg" class="card-img-top"
+                alt="Jersey">
+
                 <div class="card-body">
-                        <h5>Jerseys</h5>
-                        <p>Get your favourite players latest player kit.</p>
-                        <a href="#">Shop now</a>
+                        <h5 class="card-title">Jerseys</h5>
+
+                        <p class="card-text">Get your favourite players latest player kit.</p>
+
+                        <a href="#" class="btn btn-primary">
+                            Shop now</a>
               </div>
-        </div>
-     </div>
+           </div>
+         </div>
 
      <!---Product Card 4-->
       <div class="col-md-6 col-lg-3">
             <div class="card product-card h-100">
-                <img src="media/pexels-mgshotz-18670550.jpg" alt="Sneakers">
+
+                <img src="media/pexels-mgshotz-18670550.jpg" class="card-img-top"
+                alt="Sneakers">
                 <div class="card-body">
-                        <h5>Baseball Cap</h5>
-                        <p>Top off your look with our stylish baseball caps 🧢✨</p>
-                        <a href="#">Shop now</a>
+                        <h5 class="card-title">Baseball Cap</h5>
+
+                        <p class="card-text">Top off your look with our stylish baseball caps 🧢✨
+
+                        </p>
+                        <a href="#" class="btn btn-primary">
+                            Shop now</a>
                         </div>
                     </div>
                 </div>
@@ -114,12 +144,12 @@
         <!--======================
                FOOTER SECTION
         ======================-->
-      <footer>
-            <div class="container">
+      <footer id="footer" class="footer-section">
+            <div id="services" class="container text-center">
                 <h4>Chobi's store</h4>
 
-                <p>Your trusted destiantion for quality products and great deals</p>
-                <p>&copy; 2026 Chobi's store.All Rights Reserved.</p>
+                <p>Your trusted destination for quality products and great deals</p>
+                <p>&copy; 2026 Chobi's store. All Rights Reserved.</p>
 
             </div>
       </footer>
