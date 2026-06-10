@@ -11,6 +11,10 @@ A modern, responsive landing page designed to showcase products, promote offers,
 -Html
 -Css
 
+## Design Choices
+
+The website was designed with a clean and modern layout to create an engaging shopping experience. A responsive design approach was used to ensure compatibility across desktop, tablet, and mobile devices. A simple color palette and consistent typography improve readability and maintain a professional appearance. Clear call-to-action buttons and a structured content layout help guide users through the landing page and encourage interaction with featured products and promotions.
+
 # Usage
 -Download the project
 -Open folder
@@ -22,6 +26,10 @@ A modern, responsive landing page designed to showcase products, promote offers,
 -Featured products section
 -Promotional banners and offers
 -Customer testimonials
+
+## Screenshots
+
+
 
 # Future Improvements
 -Shopping cart integration
