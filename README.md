@@ -28,8 +28,8 @@ The website was designed with a clean and modern layout to create an engaging sh
 -Customer testimonials
 
 ## Screenshots
-
-
+<img src="screenshots\Screenshot 2026-06-09 000358.png" alt="Homepage">
+<img src="screenshots\Screenshot 2026-06-09 000517.png" alt="Product view">
 
 # Future Improvements
 -Shopping cart integration
